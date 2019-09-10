@@ -1,3 +1,4 @@
+- [DEMO LINK](https://annetastar.github.io/markup_calendar/src/)
 # Calendar
 
 Display a calendar in the middle of the screen. The HTML of the calendar needs to have the following structure:
