@@ -1,0 +1,44 @@
+@import "variables";
+
+body {
+  font-family: $font-style;
+  font-size: $font-size;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, $size);
+  grid-template-rows: repeat(6, $size);
+  grid-gap: 1px;
+  grid-template-areas: "mon tue wed thu fri sat sun";
+}
+
+.box {
+  background-color: $color;
+  border: $border-style;
+}
+
+.box:hover {
+  background-color: $color-hover;
+  cursor: pointer;
+  transform: translate(0, -20px);
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+@for $i from 1 through 31 {
+  .box:nth-child(#{$i})::after {
+    content: "#{$i}";
+    display: block;
+    width: $size;
+    text-align: center;
+    line-height: $size;
+  }
+}
+
+$week-days: ('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun');
+@each $i in $week-days {
+  .calendar-#{$i} .box:nth-child(1) {
+    grid-column-start: #{$i};
+  }
+}
+

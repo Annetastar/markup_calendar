@@ -1,0 +1,302 @@
+body {
+  font-family: "Helevica", sans-serif;
+  font-size: 30px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(6, 100px);
+  grid-gap: 1px;
+  grid-template-areas: "mon tue wed thu fri sat sun";
+}
+
+.box {
+  background-color: #EEEEEE;
+  border: 1px solid black;
+}
+
+.box:hover {
+  background-color: #EEC5CC;
+  cursor: pointer;
+  transform: translate(0, -20px);
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.box:nth-child(1)::after {
+  content: "1";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(2)::after {
+  content: "2";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(3)::after {
+  content: "3";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(4)::after {
+  content: "4";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(5)::after {
+  content: "5";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(6)::after {
+  content: "6";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(7)::after {
+  content: "7";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(8)::after {
+  content: "8";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(9)::after {
+  content: "9";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(10)::after {
+  content: "10";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(11)::after {
+  content: "11";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(12)::after {
+  content: "12";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(13)::after {
+  content: "13";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(14)::after {
+  content: "14";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(15)::after {
+  content: "15";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(16)::after {
+  content: "16";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(17)::after {
+  content: "17";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(18)::after {
+  content: "18";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(19)::after {
+  content: "19";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(20)::after {
+  content: "20";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(21)::after {
+  content: "21";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(22)::after {
+  content: "22";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(23)::after {
+  content: "23";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(24)::after {
+  content: "24";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(25)::after {
+  content: "25";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(26)::after {
+  content: "26";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(27)::after {
+  content: "27";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(28)::after {
+  content: "28";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(29)::after {
+  content: "29";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(30)::after {
+  content: "30";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box:nth-child(31)::after {
+  content: "31";
+  display: block;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.calendar-mon .box:nth-child(1) {
+  grid-column-start: mon;
+}
+
+.calendar-tue .box:nth-child(1) {
+  grid-column-start: tue;
+}
+
+.calendar-wed .box:nth-child(1) {
+  grid-column-start: wed;
+}
+
+.calendar-thu .box:nth-child(1) {
+  grid-column-start: thu;
+}
+
+.calendar-fri .box:nth-child(1) {
+  grid-column-start: fri;
+}
+
+.calendar-sat .box:nth-child(1) {
+  grid-column-start: sat;
+}
+
+.calendar-sun .box:nth-child(1) {
+  grid-column-start: sun;
+}
+
+/*# sourceMappingURL=style.css.map */
